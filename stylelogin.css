@@ -3,7 +3,7 @@ body {
     margin-right: auto;
     /* margin:0; */
     color: #6a6f8c;
-    background: #c8c8c8;
+    background: hsl(136, 65%, 51%);
     font: 600 16px/18px 'Open Sans', sans-serif;
 }
 
@@ -48,7 +48,7 @@ a {
     height: 100%;
     position: absolute;
     padding: 90px 70px 50px 70px;
-    background: rgba(40, 57, 101, .9);
+    background: rgba(49, 177, 186, 0.9);
 }
 
 .login-html .sign-in-htm,
@@ -86,7 +86,7 @@ a {
 
 .login-html .sign-in:checked+.tab,
 .login-html .sign-up:checked+.tab {
-    color: #fff;
+    color: #000000;
     border-color: #1161ee;
 }
 
@@ -105,7 +105,7 @@ a {
 .login-form .group .input,
 .login-form .group .button {
     width: 100%;
-    color: #fff;
+    color: #000000;
     display: block;
 }
 
@@ -123,7 +123,7 @@ a {
 }
 
 .login-form .group .label {
-    color: #aaa;
+    color: #000000;
     font-size: 12px;
 }
 
@@ -164,7 +164,7 @@ a {
 }
 
 .login-form .group .check:checked+label {
-    color: #fff;
+    color: #000000;
 }
 
 .login-form .group .check:checked+label .icon {

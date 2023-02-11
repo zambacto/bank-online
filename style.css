@@ -356,6 +356,65 @@ main {
 }
 
 
+
+/*-----------------------------------*\ 
+  #CARREER
+\*-----------------------------------*/
+
+.carrier {
+  padding: 190px var(--px);
+  background: var(--very-light-gray);
+}
+
+.carrier .section-title {
+  margin-bottom: 30px;
+}
+
+.article-card-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.article-card {
+  border-radius: 5px;
+  background: var(--white);
+  overflow: hidden;
+}
+
+.article-card .card-head {
+  height: 200px;
+}
+
+
+
+.article-card .card-body {
+  padding: 20px;
+}
+
+.article-card .article-author {
+  font-size: 10px;
+  color: var(--grayish-blue);
+  margin-bottom: 10px;
+}
+
+.article-card .card-title {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark-blue);
+  margin-bottom: 10px;
+  transition: 0.25s ease;
+}
+
+.article-card .card-title:hover {
+  color: var(--lime-green);
+}
+
+.article-card .card-text {
+  font-size: 13px;
+  color: var(--grayish-blue);
+  line-height: 1.5;
+}
 /*-----------------------------------*\ 
   #Contact
 \*-----------------------------------*/
